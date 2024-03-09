@@ -13,6 +13,7 @@ JWT Authentication
 Lombok for code generation
 
 
+
 ## Building and Running
 
 ### To build and run the project:   
@@ -36,3 +37,4 @@ Lombok for code generation
     Password: pass
     Role: USER
 
+### * There is a job scheduled to send emails to the users with the tasks that are due today every day at midnight.

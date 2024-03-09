@@ -20,7 +20,6 @@ public class UserController {
     private final UserService userService;
 
     @PostMapping("/register")
-    @ResponseStatus(HttpStatus.CREATED)
     private ResponseEntity<String> registerUser(
             @RequestBody UserDto userDto) {
 

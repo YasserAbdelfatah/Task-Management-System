@@ -42,7 +42,6 @@ public class TaskController {
     }
 
     @PostMapping
-    @ResponseStatus(HttpStatus.CREATED)
     private ResponseEntity<String> save(@RequestBody TaskDto task) {
         taskService.save(getCurrentUser(), task);
         return ResponseEntity.ok("Task added successfully");
